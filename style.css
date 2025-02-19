@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(206, 167, 71);
+}
+  
+#hero {
+    margin: auto;
+    font-size: 30px;
+    font-family:wallpoet;
+    text-align: center;
+    color: rgba(19, 75, 153, 0.8);
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
+
+#hero:hover {
+    color: rgba(14, 26, 43, 0.8);
+    text-shadow: 2px 2px 5px rgba(44, 44, 44, 0.5);
+    cursor: pointer;
+}
+
+.container{
+    width: 60%;
+    height: 50vh;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 50px;
+    background-color: rgba(19, 75, 153, 0.8);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#time {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 25vh;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+#btn {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background: white;
+    color: rgb(49, 29, 1);
+    transition: ease-in-out 0.3s;
+}
+
+button.txt {
+    padding: 7px 20px;
+}
+
+button:hover, button:focus {
+    background-color: rgb(236, 180, 49);
+    border: 1px solid rgb(240, 238, 238);
+    color: rgb(0, 0, 0);
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1500px){
+    .container{
+        height: 40vh;
+    }
+    #time {
+        font-size: 20vh;
+    }
+    button {
+    font-size: 13px;
+    }
+}
+@media screen and (max-width: 1200px){
+    #hero{
+        font-size: 17px;
+    }.container{
+        height: 30vh;
+    }
+    #time {
+        font-size: 15vh;
+    }
+}
+@media screen and (max-width: 950px) {
+    #hero{
+        font-size: 13px;
+    }
+    .container{
+        height: 25vh;
+    }
+    #time {
+        font-size: 10vh;
+    }
+    button {
+        font-size: 10px;
+        }
+}
+@media screen and (max-width: 640px) {
+    #hero{
+        font-size: 12px;
+    }
+    .container{
+        height: 20vh;
+    }
+    #time {
+        font-size: 8vh;
+    }
+    button {
+        font-size: 8px;
+        }
+}
+@media screen and (max-width: 510px) {
+    #hero{
+        font-size: 10px;
+    }
+    .container{
+        width: 80%;
+        height: 18vh;
+    }
+    #time {
+        font-size: 7vh;
+    }
+    #btn {
+        display: block;
+        }
+    button {
+            font-size: 7px;
+            }
+}
+@media screen and (max-width: 450px) {
+    #hero{
+        font-size: 9px;
+    }
+    .container{
+        width: 80%;
+        height: 18vh;
+        border-radius: 40px;
+    }
+    #time {
+        font-size: 8vh;
+    }
+    #btn {
+        display: block;
+        }
+    button {
+        font-size: 9px;
+        }
+}
+@media screen and (max-width: 380px) {
+    #hero{
+        font-size: 20px;
+    }
+    .container{
+        width: 80%;
+        height: 25vh;
+    }
+    #time {
+        font-size: 8vh;
+    }
+    #btn {
+        font-size: 10px;
+        padding: 15px;
+        display: block;
+        }
+}
+@media screen and (max-width: 300px) {
+    #hero{
+        font-size: 6px;
+    }
+    .container{
+        width: 80%;
+        height: 20vh;
+    }
+    #time {
+        font-size: 8vh;
+    }
+    #btn {
+        display: block;
+        }
+}
